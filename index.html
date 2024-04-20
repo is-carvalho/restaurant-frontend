@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.cdnfonts.com/css/elegant-2" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/margareta-2" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="javascript/index.js" rel="stylesheet"></script>
     <title>restaurante</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
             <ul class="list-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
-                <li><a href="#contato-section">Contato</a></li>
+                <li><a onclick="scrollToContact()" href="#">Contato</a></li>
             </ul>
         </nav>
         <div class="info-gerais">
@@ -26,8 +27,6 @@
             <img class="instagram-icon" src="images/instagram.png" alt="instagram">
         </div>
     </header>
-
-
     <div class="parallax-01">
         <div class="main-title">
             <p>- Botique Artesanal -</p>
@@ -81,8 +80,8 @@
 
     <section class="sobre">
         <div class="container-mirror">
-            <img class="sobre__mirror-picture" src="images/mirror_picture-01.jpg">
-            <img class="sobre__mirror-picture" src="images/mirror_picture-02.jpg">
+            <img class="container__mirror-picture" src="images/mirror_picture-01.jpg">
+            <img class="container__mirror-picture" src="images/mirror_picture-02.jpg">
         </div>
         <article class="content-portion">
             <header class="sobre__header">
